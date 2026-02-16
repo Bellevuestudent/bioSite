@@ -1,8 +1,8 @@
 /* Patrice Moracchini - CSD 340 bioSite */
 /* site.css - shared styles for all pages */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600;700&display=swap');
-
-:root{
+/* Define CSS variables for consistent theming across the site */
+:root{ /* Colors */
   --bg:#F4F6F8;
   --surface:#FFFFFF;
   --text:#121826;
@@ -14,7 +14,7 @@
   --max:1120px;
   --border:#e6e8ec;
 }
-
+/* Reset and base styles */
 *{ box-sizing:border-box; }
 
 body{
