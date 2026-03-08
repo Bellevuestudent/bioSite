@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600;700&display=swap');
 /* Define CSS variables for consistent theming across the site */
 :root{ /* Colors */
-  --bg:#F4F6F8;
+  --bg:#E1E8F2;           /* modified after feedback from schoolmates, bluer nuance*/
   --surface:#FFFFFF;
   --text:#121826;
   --muted:#667085;
@@ -71,7 +71,7 @@ a:hover{ text-decoration: underline; }
   padding: 8px 14px;
   text-decoration: none;
   color: var(--primary);
-  background: var(--surface);
+  background: var(--bg);
   border: 1px solid var(--border);
   border-radius: 10px;
   font-weight: 600;
@@ -94,7 +94,7 @@ a:hover{ text-decoration: underline; }
 }
 
 .btn-secondary{
-  background: transparent;
+  background: var(--bg);
   border: 1px solid var(--muted);
   color: var(--primary);
 }
